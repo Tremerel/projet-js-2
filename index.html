@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes projets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/mouseShadow.js" defer></script>
+    <script src="js/stickyNavBar.js" defer></script>
+    <script src="js/flexPanel.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/listAlphab.js" defer></script>
+    <script src="js/checkbox.js" defer></script>
+    <script src="js/drum.js" defer></script>
+    <script src="js/slider.js" defer></script>
+</head>
+<body>
+    <div class="hero" id="section1">
+        <h1 class="text-shadow">Projet Perso !</h1>
+        <div>Ceci est un nouveau projet</div>
+      </div>
+    
+      <nav id="main">
+        <ul>
+          <li class="logo"><a href="#">LOST.</a></li>
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">Flex Panel</a></li>
+          <li><a href="#section3">Horloges</a></li>
+          <li><a href="#section4">Listes</a></li>
+          <li><a href="#section5">Batterie</a></li>
+          <li><a href="#section6">Slider</a></li>
+        </ul>
+      </nav>
+      
+
+      <div class="panels" id="section2">
+        <div class="panel panel1">
+          <p>Hey</p>
+          <p>Let's</p>
+          <p>Dance</p>
+        </div>
+        <div class="panel panel2">
+          <p>Give</p>
+          <p>Take</p>
+          <p>Receive</p>
+        </div>
+        <div class="panel panel3">
+          <p>Experience</p>
+          <p>It</p>
+          <p>Today</p>
+        </div>
+        <div class="panel panel4">
+          <p>Give</p>
+          <p>All</p>
+          <p>You can</p>
+        </div>
+        <div class="panel panel5">
+          <p>Life</p>
+          <p>In</p>
+          <p>Motion</p>
+        </div>
+      </div>
+
+      <div class="clock-container" id="section3">
+        <div class="clock">
+            <div class="clock-face">
+              <div class="hand hour-hand"></div>
+              <div class="hand min-hand"></div>
+              <div class="hand second-hand"></div>
+            </div>
+        </div>      
+      </div>
+  
+      <div id="section4">
+        <ul id="bands"></ul>
+
+        <div class="inbox">
+            <div class="item">
+              <input type="checkbox">
+              <p>This is an inbox layout.</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Check one item</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Hold down your Shift key</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Check a lower item</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Everything in between should also be set to checked</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Try to do it without any libraries</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Just regular JavaScript</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Good Luck!</p>
+            </div>
+            <div class="item">
+              <input type="checkbox">
+              <p>Don't forget to tweet your result!</p>
+            </div>
+          </div>
+      </div>
+
+      <div id="section5">
+        <div class="keys">
+            <div data-key="81" class="key">
+              <kbd>Q</kbd>
+              <span class="sound">clap</span>
+            </div>
+            <div data-key="83" class="key">
+              <kbd>S</kbd>
+              <span class="sound">hihat</span>
+            </div>
+            <div data-key="68" class="key">
+              <kbd>D</kbd>
+              <span class="sound">kick</span>
+            </div>
+            <div data-key="70" class="key">
+              <kbd>F</kbd>
+              <span class="sound">openhat</span>
+            </div>
+            <div data-key="71" class="key">
+              <kbd>G</kbd>
+              <span class="sound">boom</span>
+            </div>
+            <div data-key="72" class="key">
+              <kbd>H</kbd>
+              <span class="sound">ride</span>
+            </div>
+            <div data-key="74" class="key">
+              <kbd>J</kbd>
+              <span class="sound">snare</span>
+            </div>
+            <div data-key="75" class="key">
+              <kbd>K</kbd>
+              <span class="sound">tom</span>
+            </div>
+            <div data-key="76" class="key">
+              <kbd>L</kbd>
+              <span class="sound">tink</span>
+            </div>
+          </div>
+        
+          <audio data-key="81" src="sounds/clap.wav"></audio>
+          <audio data-key="83" src="sounds/hihat.wav"></audio>
+          <audio data-key="68" src="sounds/kick.wav"></audio>
+          <audio data-key="70" src="sounds/openhat.wav"></audio>
+          <audio data-key="71" src="sounds/boom.wav"></audio>
+          <audio data-key="72" src="sounds/ride.wav"></audio>
+          <audio data-key="74" src="sounds/snare.wav"></audio>
+          <audio data-key="75" src="sounds/tom.wav"></audio>
+          <audio data-key="76" src="sounds/tink.wav"></audio>
+      </div>
+
+      <div id="section6">
+        <div class="sliders">
+            <div class="slider slider1">01</div>
+            <div class="slider slider2">02</div>
+            <div class="slider slider3">03</div>
+            <div class="slider slider4">04</div>
+            <div class="slider slider5">05</div>
+            <div class="slider slider6">06</div>
+            <div class="slider slider7">07</div>
+            <div class="slider slider8">08</div>
+            <div class="slider slider9">09</div>
+            <div class="slider slider10">10</div>
+            <div class="slider slider11">11</div>
+            <div class="slider slider12">12</div>
+            <div class="slider slider13">13</div>
+            <div class="slider slider14">14</div>
+            <div class="slider slider15">15</div>
+            <div class="slider slider16">16</div>
+            <div class="slider slider17">17</div>
+            <div class="slider slider18">18</div>
+            <div class="slider slider19">19</div>
+            <div class="slider slider20">20</div>
+            <div class="slider slider21">21</div>
+            <div class="slider slider22">22</div>
+            <div class="slider slider23">23</div>
+            <div class="slider slider24">24</div>
+            <div class="slider slider25">25</div>
+          </div>
+        
+      </div>
+
+
+</body>
+</html>
