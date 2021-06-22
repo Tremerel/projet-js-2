@@ -14,11 +14,15 @@
     <script src="js/checkbox.js" defer></script>
     <script src="js/drum.js" defer></script>
     <script src="js/slider.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="hero" id="section1">
         <h1 class="text-shadow">Projet Perso !</h1>
-        <div>Ceci est un nouveau projet</div>
+        <div>Enjoy ! You can pick whatherver you want in the code !</div>
       </div>
     
       <nav id="main">
@@ -33,8 +37,9 @@
         </ul>
       </nav>
       
-
-      <div class="panels" id="section2">
+      <div id="section2">
+        <div class="panel-container">
+      <div class="panels" >
         <div class="panel panel1">
           <p>Hey</p>
           <p>Let's</p>
@@ -61,8 +66,10 @@
           <p>Motion</p>
         </div>
       </div>
-
-      <div class="clock-container" id="section3">
+      </div>
+    </div>
+  <div id="section3">
+      <div class="clock-container">
         <div class="clock">
             <div class="clock-face">
               <div class="hand hour-hand"></div>
@@ -71,8 +78,9 @@
             </div>
         </div>      
       </div>
-  
+  </div>
       <div id="section4">
+        <div class="box-container">
         <ul id="bands"></ul>
 
         <div class="inbox">
@@ -113,9 +121,11 @@
               <p>Don't forget to tweet your result!</p>
             </div>
           </div>
+          </div>
       </div>
 
       <div id="section5">
+        <div class="drum-container">
         <div class="keys">
             <div data-key="81" class="key">
               <kbd>Q</kbd>
@@ -153,6 +163,7 @@
               <kbd>L</kbd>
               <span class="sound">tink</span>
             </div>
+           
           </div>
         
           <audio data-key="81" src="sounds/clap.wav"></audio>
@@ -164,7 +175,7 @@
           <audio data-key="74" src="sounds/snare.wav"></audio>
           <audio data-key="75" src="sounds/tom.wav"></audio>
           <audio data-key="76" src="sounds/tink.wav"></audio>
-      </div>
+      </div> </div>
 
       <div id="section6">
         <div class="sliders">

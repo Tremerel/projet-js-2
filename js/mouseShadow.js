@@ -14,7 +14,7 @@ function shadow(e){
   const xWalk = Math.round((x/width*walk)- (walk/2))
   const yWalk = Math.round((y/height*walk)- (walk/2))
 
-  text.style.textShadow = `${xWalk}px ${yWalk}px 0 #4F4F4F`
+  text.style.textShadow = `${xWalk}px ${yWalk}px 0 #0000005b`
 }
 
 hero.addEventListener('mousemove', shadow)
