@@ -243,6 +243,7 @@ nav a {
   /* on annime la rotation */
   transition: all 0.05s;
   transition-timing-function: cubic-bezier();
+  box-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
 .hand:nth-child(1) {
   height: 7px;
@@ -279,15 +280,16 @@ nav a {
 }
 #bands {
   list-style: inside square;
+  padding: 1rem;
   font-size: 20px;
   background: white;
-  width: 500px;
+  width: 350px;
   box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 #bands li {
   border-bottom: 1px solid #efefef;
-  padding: 20px;
+  padding: 10px;
 }
 
 #bands li:last-child {
@@ -301,6 +303,7 @@ a {
 
 /* check box */
 .inbox {
+  padding: 1rem;
   max-width: 400px;
   background: white;
   border-radius: 5px;
@@ -323,15 +326,14 @@ input:checked + p {
 }
 
 input[type="checkbox"] {
-  margin: 20px;
+  margin: 10px;
 }
 
 .inbox p {
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   transition: background 0.2s;
   flex: 1;
-  font-family: "helvetica neue";
   font-size: 20px;
   font-weight: 200;
   border-left: 1px solid #d1e2ff;
@@ -363,6 +365,7 @@ input[type="checkbox"] {
 }
 .keys {
   display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
   align-items: center;
   justify-content: stretch;
@@ -371,9 +374,9 @@ input[type="checkbox"] {
 .key {
   border: 0.4rem solid #f1f1f1;
   border-radius: 0.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
   font-size: 1.5rem;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem;
   transition: all 0.07s ease;
   width: 5rem;
   text-align: center;
